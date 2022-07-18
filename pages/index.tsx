@@ -6,6 +6,7 @@ import { IProduct } from "../components/Product";
 import { GetStaticProps } from "next";
 import Jumbotron from "../components/Jumbotron";
 import { products } from '../components/products';
+
 interface IProductListProps {
     products: IProduct[]
 }

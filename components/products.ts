@@ -1,5 +1,5 @@
 import { IProduct } from "./Product";
-import damianyPP from '../public/damianyPP.jpeg';
+import damianyPP from '../public/damianyPP.png';
 
 export const products: IProduct[] = [
     {
