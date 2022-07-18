@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 import styles from '../styles/Product.module.scss';
 
 export interface IProduct {
