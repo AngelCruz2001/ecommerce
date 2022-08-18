@@ -4,34 +4,34 @@ import damianyPP from '../public/damianyPP.png';
 export const products: IProduct[] = [
     {
         id: "halfmoon",
-        name: "Halfmoon Betta",
-        price: 25.00,
-        image: damianyPP,
-        description: "The Halfmoon betta is arguably one of the prettiest betta species. It is recognized by its large tail that can flare up to 180 degrees.",
+        name: "Oni-Cult Anvil",
+        price: 155.00,
+        image: '/images/oni.png',
+        description: "Whenever one or more artifacts you control leave the battlefield during your turn, create a 1/1 colorless Construct artifact creature token. This ability triggers only once each turn.",
         url: '/api/products/halfmoon'
     },
     {
         id: "dragonscale",
-        name: "Dragon Scale Betta",
-        price: 35,
-        image: damianyPP,
-        description: "The dragon scale betta is a rarer and higher maintenance fish. It is named by its thick white scales covering his sides that looks like dragon scale armor.",
+        name: "Voldaren Bloodcaster",
+        price: 350.00,
+        image: '/images/voldaren.png',
+        description: "Whenever Voldaren Bloodcaster or another nontoken creature you control dies, create a Blood token. (It's an artifact with 1, Tap, Discard a card, Sacrifice this artifact: Draw a card.) Whenever you create a Blood token, if you control five or more Blood tokens, transform Voldaren Bloodcaster.",
         url: '/api/products/dragonscale'
     },
     {
         id: "crowntail",
-        name: "Crowntail Betta",
+        name: "Voldaren Epicure",
         price: 7.50,
-        image: damianyPP,
-        description: "The crowntail is pretty common, but interesting none the less. It's recognized by the shape of its tail that has an appearance of a comb.",
+        image:  '/images/epicure.png',
+        description: "When Voldaren Epicure enters the battlefield, it deals 1 damage to each opponent. Create a Blood token. (It's an artifact with 1, Tap, Discard a card, Sacrifice this artifact: Draw a card.)",
         url: '/api/products/crowntail'
     },
     {
         id: "veiltail",
-        name: "Veiltail Betta",
-        price: 5.00,
-        image: damianyPP,
-        description: "By far the most common betta fish. You can recognize it by its long tail aiming downwards.",
+        name: "Sol Ring",
+        price: 1005.00,
+        image:  '/images/solring.png',
+        description: "Lost to time is the artificer's art of trapping light from a distant star in a ring of purest gold.",
         url: '/api/products/veiltail'
     }
 ]
