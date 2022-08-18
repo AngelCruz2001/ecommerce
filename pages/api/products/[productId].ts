@@ -20,7 +20,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
         res.status(404).json({});
         return ;
     }
-    const snipcartProduct: ISnipcartProduct = {...product, image: product?.image.src ?? ""}
+    const snipcartProduct: ISnipcartProduct = {...product, image: product?.image ?? ""}
 
     res.status(200).json(snipcartProduct);
 }
